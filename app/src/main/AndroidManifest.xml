@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quizwiz" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+       >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InitialLoginActivity"
+            android:label="@string/app_name" >
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Categories"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name=".SelectChallenger"
+            android:label="@string/title_activity_select_challenger" >
+        </activity>
+        <activity
+            android:name=".QuizQuestions"
+            android:label="@string/title_activity_quiz_questions" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile_activity" >
+        </activity>
+        <activity
+            android:name=".PostQuiz"
+            android:label="@string/title_activity_post_quiz"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".AddFriend"
+            android:label="@string/title_activity_add_friend" >
+        </activity>
+        <activity
+            android:name=".Requests"
+            android:label="@string/title_activity_requests" >
+        </activity>
+        <activity
+            android:name=".Results"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name=".PreviewQuestion"
+            android:label="@string/title_activity_preview_question" >
+        </activity>
+        <activity
+            android:name=".ChallengeStart"
+            android:label="@string/title_activity_challenge_start" >
+        </activity>
+        <activity
+            android:name=".TwoPlayerQuiz"
+            android:label="TwoPlayerQuiz" >
+        </activity>
+        <activity
+            android:name=".TwoPlayerResult"
+            android:label="@string/title_activity_two_player_result" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+    </application>
+
+</manifest>

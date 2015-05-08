@@ -1,0 +1,45 @@
+<resources>
+    <color name="custom_theme_color">#ff17aeff</color>
+    <color name="red">#FF5930</color>
+    <color name="green">#009933</color>
+    <color name="white">#ffffff</color>
+    <color name="header">#122F3D</color>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!--<item name="android:actionBarStyle">@style/ActionBar</item>-->
+        <!-- <item name="android:background">@drawable/bluebackground</item>-->
+        <item name="android:windowBackground">@drawable/bluebackground</item>
+
+        <!--<item name="android:colorPrimary">#FF7043</item>-->
+      <!--  <item name="android:windowBackground">@color/custom_theme_color</item>
+       <item name="android:colorBackground">@color/custom_theme_color</item>-->
+    </style>
+
+    <!--<style name="ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/custom_theme_color</item>
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+-->
+    <style name="EditTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:background">#B3E5FC</item>
+        <item name="android:textColorHint">#009688</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#E8E8E8</item>
+        <item name="android:typeface">monospace</item>
+        <!--<item name="android:background">#f0f0f0</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+    </style>
+</resources>

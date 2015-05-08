@@ -1,0 +1,178 @@
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context="com.quizwiz.QuizQuestions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Category - Computer Science"
+            android:id="@+id/textView13"
+            android:textSize="20dp"
+            android:layout_gravity="left"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Timer"
+            android:id="@+id/textView19"
+            android:textSize="20dp"
+            android:textColor="#ffff231d"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+        <TextView android:text="In which header file is the NULL macro defined?" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:text="stdio.h"
+        android:id="@+id/button8"
+        android:onClick="onClickA"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:text="stdlib.h"
+        android:id="@+id/button9"
+        android:onClick="onClickB"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:text="stdio.h and stddef.h"
+        android:id="@+id/button10"
+        android:onClick="onClickC"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="math.h"
+        android:id="@+id/button11"
+        android:onClick="onClickD"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_margin="5dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="12dip">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Questions left"
+            android:id="@+id/textView18"
+            android:textSize="17dp"
+            android:layout_alignParentLeft="true"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Points"
+            android:id="@+id/textView17"
+            android:textSize="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:onClick="onNextQ"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:id="@+id/button13"
+        android:textSize="15dp"
+        android:layout_margin="5dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
